@@ -2,7 +2,7 @@ from openai import OpenAI
 import os
 
 # Your OpenRouter API key
-API_KEY = "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"
+API_KEY = "put your API key here"
 
 def get_openai_client():
     return OpenAI(
